@@ -1,10 +1,10 @@
 === Use jQuery Cloudflare ===
 Contributors: luciole135
-Tags: cloudflare, cdn, jquery, js, optimisation, speed, WordPress Performance
+Tags: cloudflare, cdn, jquery, jquery-migrate, js, optimisation, speed, WordPress Performance
 Donate link: additifstabac@free.fr
 Requires at least: 2.8
-Tested up to: 4.0
-Stable tag: 1.0.1
+Tested up to: 4.1
+Stable tag: 1.0.2
 
 Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de CloudFlare
 
@@ -34,6 +34,9 @@ Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de 
 
 == Changelog ==
 = 1.0.1 =
-* Do not show the version of jQuery, masonry and jquery-migrate as recommended by gtmetrix 
+* Do not show the version of jQuery, masonry and jquery-migrate as recommended by gtmetrix
 "Most proxies, most notably Squid up through version 3.0, do not cache resources with a "?" in their URL even if a Cache-control: public header is present in the response. To enable proxy caching for these resources, remove query strings from references to static resources, and instead encode the parameters into the file names themselves."
 http://gtmetrix.com/remove-query-strings-from-static-resources.html
+= 1.0.2 =
+* French : Affectation d'une priorité basse d'exécution du plugin afin de permettre à ce plugin d'agir en tout dernier lieu après les autres plugins.  Ceci permet d'assurer la compatibilité avec les autres plugins agissant eux aussi sur les scripts jQuery.
+* English: Assigning a low priority for the implementation of the plugin to allow this plugin to act as a last place after the other plugins. This ensures compatibility with other plugins modifying the jQuery scripts.
