@@ -9,6 +9,7 @@ Stable tag: 1.1
 Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de CloudFlare
 
 == Description ==
+TEST
 = French =
 * Un plugin extremement léger pour charger les scripts jquery et jquery migrate de wordPress depuis les CDN de Cloudflare. Il permet d'optimiser et d'accélerer WordPress.
 * Il augmente d'environ 5% le Page Speed Grade de GTmetrix.
