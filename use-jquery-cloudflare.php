@@ -6,7 +6,7 @@ Donate link: additifstabac@free.fr
 Description: Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de Cloudflare
 Author: luciole135
 Author URI: http://additifstabac.free.fr
-Version: trunk
+Version: 1.2-alpha
 */
 function modify_jquery() {global $wp_scripts;
 	if (!is_admin()) {
