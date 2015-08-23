@@ -2,7 +2,7 @@
 Contributors: luciole135
 Tags: cloudflare, cdn, jquery, jquery-migrate, masonry, js, optimisation, speed, WordPress Performance
 Donate link: additifstabac@free.fr
-Requires at least: 2.8
+Requires at least: 3.9
 Tested up to: 4.3
 Stable tag: 1.2
 
@@ -31,6 +31,14 @@ Loads the open source scripts jQuery, jQuery-migrate and Masonry from CloudFlare
 * It automatically detects the version of the script used by your theme and makes a request to it on the CDN Cloudflare.
 
 * More info (in french): http://additifstabac.free.fr/index.php/use-jquery-cloudflare/
+
+== About Masonry in 3.9 ==
+= French =
+* Depuis WordPress 3.9 'Masonry' est mis à jour en v3, qui ne nécessite plus jquery.
+http://make.wordpress.org/core/2014/03/27/masonry-in-wordpress-3-9/
+* Le nouvel handle WordPress est 'masonry'.
+* L'ancien handle 'jquery-masonry' est maintenant devenu un complément v2/v3, qui permet (un peu) de rétrocompatibilité avec les options, classes et méthodes qui ont disparues de la v3.
+http://masonry.desandro.com/appendix.html#upgrading-from-v2
 
 == Installation ==
 1. Dézippez l\'archive et placez là dans le dossier /wp-content/plugins
