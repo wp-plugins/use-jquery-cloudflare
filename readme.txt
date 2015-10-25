@@ -8,6 +8,7 @@ Stable tag: 1.2
 
 Loads the open source scripts jQuery, jQuery-migrate and Masonry from CloudFlare's CDN.
 
+
 == Description ==
 = French =
 * Un plugin extremement léger pour charger les 3 scripts jquery, jquery-migrate et Masonry de WordPress depuis les CDN de Cloudflare. Il permet d'optimiser et d'accélerer WordPress.
